@@ -1,0 +1,5 @@
+<div>
+<ul *ngFor="let course of courses">
+    <button (click)="onSelect(course)" class="btn btn-danger">{{course.name}}</button>
+</ul>
+<div>
